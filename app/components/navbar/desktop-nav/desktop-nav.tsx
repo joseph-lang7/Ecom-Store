@@ -14,7 +14,7 @@ interface navItem {
 export const DesktopNav = () => {
   const pathname = usePathname();
   return (
-    <div>
+    <nav className="hidden md:block">
       <ul className="flex gap-5 items-center">
         {NavItems!.map((navItem: navItem) => (
           <li
@@ -32,6 +32,6 @@ export const DesktopNav = () => {
           <NavButton cartIcon={true} icon={<IoIosCart />} />
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
