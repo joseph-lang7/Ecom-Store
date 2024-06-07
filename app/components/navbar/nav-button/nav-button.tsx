@@ -1,5 +1,6 @@
 "use client";
 import React, { ReactNode, useState } from "react";
+import { CartButtonBadge } from "../cart-button-badge/cart-button.badge";
 
 interface Props {
   icon: ReactNode;
@@ -19,6 +20,7 @@ export const NavButton = ({ icon, cartIcon }: Props) => {
       >
         {icon}
       </button>
+      {cartIcon && <CartButtonBadge amount="3" />}
 
       <div
         className={`${
