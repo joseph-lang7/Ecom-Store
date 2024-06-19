@@ -6,7 +6,7 @@ export const GridCard = ({ imageUrl, rowSpan, buttonContent }) => {
 
   return (
     <div
-      className={`inline-block overflow-hidden ${rowSpan} relative group`}
+      className={`inline-block overflow-hidden ${rowSpan} relative group h-[500px] md:h-auto text-xs`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
