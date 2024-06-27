@@ -8,7 +8,7 @@ export const NewsCard = ({ image }: Props) => {
 
   return (
     <div
-      className={` relative h-[400px] w-full max-w-[400px] text-xs overflow-hidden`}
+      className={` relative h-[400px] w-full lg:max-w-[450px] text-xs overflow-hidden`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
