@@ -6,7 +6,7 @@ interface Props {
 
 export const SectionTitle = ({ title }: Props) => {
   return (
-    <div className="w-full flex flex-col text-center items-center">
+    <div className="w-full flex flex-col text-center items-center pb-10">
       <div className="flex flex-col gap-2 w-max">
         <h2 className="text-2xl">{title}</h2>
         <div className="w-full flex justify-center">

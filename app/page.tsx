@@ -4,6 +4,7 @@ import { NewProduct } from "./components/new-product/new-product";
 import { CollectionBanner } from "./components/collection-banner/collection-banner";
 import { BenefitsBanner } from "./components/benefits-banner/benefits-banner";
 import { LatestNews } from "./components/latest-news/latest-news";
+import { Newsletter } from "./components/newsletter/newsletter";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CollectionBanner />
       <BenefitsBanner />
       <LatestNews />
+      <Newsletter />
     </div>
   );
 }
