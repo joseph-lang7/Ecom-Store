@@ -8,7 +8,7 @@ import { Newsletter } from "./components/newsletter/newsletter";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div>
       <Hero />
       <GridCategories />
       <NewProduct />

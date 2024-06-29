@@ -6,8 +6,8 @@ import { SocialIcon } from "./components/social-icon";
 import { NewsletterSignUp } from "./components/newsletter-signup";
 export const Newsletter = () => {
   return (
-    <div className="flex w-full justify-center bg-[#e0dfdf] mb-20">
-      <div className="w-full max-w-[1400px] h-auto px-3 py-10 flex flex-col md:flex-row items-start gap-7 md:items-center justify-center">
+    <div className="flex w-full justify-center bg-[#e0dfdf]">
+      <div className="w-full lg:max-w-[1400px] h-auto px-3 py-10 flex flex-col md:flex-row items-start gap-7 md:items-center justify-center">
         <NewsletterSignUp />
         <div className="flex gap-3 cursor-pointer">
           <SocialIcon icon={<FaFacebookF />} />
