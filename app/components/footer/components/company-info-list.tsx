@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { Logo } from "../../logo/logo";
 
 interface contactItem {
   label: ReactNode;
@@ -11,7 +12,7 @@ interface Props {
 export const CompanyInfoList = ({ contactItems }: Props) => {
   return (
     <div className="flex flex-col gap-3 px-3">
-      <div>Logo</div>
+      <Logo />
       <ul className="flex flex-col gap-1">
         {contactItems.map((item, idx) => (
           <li
